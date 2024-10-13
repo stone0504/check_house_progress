@@ -8,7 +8,7 @@ try:
 except ImportError:
     from backports.zoneinfo import ZoneInfo
 
-url = "http://www.sccoltd.com.tw/in-progress/123" 
+url = "http://www.sccoltd.com.tw/in-progress/123"  #target
 check_interval = 7200
 
 def get_table_content(url):
